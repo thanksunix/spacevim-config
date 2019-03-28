@@ -25,6 +25,8 @@
     enable_statusline_display_mode = false
     vimcompatible = true
     lint_on_save = false
+    # disable windows leader
+    windows_leader = ""
 
 # Enable autocomplete layer
 # [[layers]]
