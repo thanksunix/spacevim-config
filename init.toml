@@ -15,7 +15,7 @@
     background = "dark"
     # Disable guicolors in basic mode, many terminal do not support 24bit
     # true colors
-    enable_guicolors = true
+    enable_guicolors = false
     # Disable statusline separator, if you want to use other value, please
     # install nerd fonts
     statusline_separator = "arrow"
@@ -25,8 +25,7 @@
     enable_statusline_display_mode = false
     vimcompatible = true
     lint_on_save = false
-    # disable windows leader
-    windows_leader = ""
+    disabled_plugins = [ "neocomplete", "vimproc.vim", "surround.vim" ]
 
 # Enable autocomplete layer
 # [[layers]]
@@ -41,3 +40,4 @@ default_height = 30
 
 [[custom_plugins]]
 name = "rhysd/vim-clang-format"
+name = "rust-lang/rust.vim"
