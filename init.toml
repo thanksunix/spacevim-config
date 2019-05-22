@@ -40,4 +40,6 @@ default_height = 30
 
 [[custom_plugins]]
 name = "rhysd/vim-clang-format"
+
+[[custom_plugins]]
 name = "rust-lang/rust.vim"
